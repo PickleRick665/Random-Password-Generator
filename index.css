@@ -1,0 +1,152 @@
+body {
+    margin: auto;
+    margin-top: 15px;
+    color: white;
+    font-family: Inter;
+    margin-top: 15px;
+}
+
+h1 {
+    color: var(--white, #FFF);
+    font-family: Karla;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 40px; /* 100% */
+    letter-spacing: -1px;
+    margin-bottom: 10px;
+}
+.subtextClass{
+    margin-top: 0px;
+    color: var(--Medium-grey, #D5D4D8);
+
+    /* text-xl/leading-7/font-normal */
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 140% */
+    margin-bottom: 51px;
+}
+.bodyDiv {
+    margin: auto;
+    width: 550px;
+    height: 550px;
+    background-color: #1F2937;
+    box-shadow: 0 0 10px;
+    border: 5px lightgray solid;
+    border-radius: 15px;
+    padding-top: 50px;
+    padding-left: 52px;
+    padding-right: 52px;
+}
+.randomPasswordPhraseClass {
+    display: block;
+    color: #4ADF86;
+}
+
+.generatePasswordButton {
+    color: var(--white, #FFF);
+
+    /* text-base/leading-6/font-medium */
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 150% */
+    
+    border-color: #10B981;
+    border-style: solid;
+    border-radius: 6px;
+    background: #10B981;
+
+    /* shadow/sm */
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+    display: inline-flex;
+    padding: 9px 17px 9px 15px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    
+    margin-bottom: 35px;
+    transition: all 0.05s;
+}
+
+.generatePasswordButton:hover {
+    background: #10B981;
+    opacity: 0.8;
+}
+
+.generatePasswordButton:active {
+    opacity: 0.4;
+}
+
+.line {
+    background: #2F3E53;
+    /* width: 446px; */
+    height: 1px;
+    border: none;
+    margin-top: 0px;
+    margin-bottom: 35px;
+}
+.rectangleParentDiv {
+    display: flex;
+    justify-content: space-between;
+  
+}
+
+.firstRectangle, .secondRectangle {
+    width: 211px;
+    height: 39px;
+    border-radius: 6px;
+    background: #273549;
+    padding-top:5px;
+    color:#10B981;
+
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+}
+
+.firstRectangle:hover, .secondRectangle:hover {
+    cursor: pointer;
+}
+
+
+.optionsDiv {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+    border: 1px solid #2F3E53;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.labels-InputDiv {
+    display: flex;
+    justify-content:space-between;
+    height: 25px;
+    align-items: center;
+}
+
+
+.passwordLengthInput {
+    width: 45px;
+    color: white;
+    background: #10B981;
+    border: none;
+    padding: 2px;
+    padding-left: 10px;
+    border-radius: 2px;
+}
+
+.checkboxInput {
+    accent-color: #10B981;
+}
+
+.checkboxInput:hover {
+    cursor: pointer;
+}

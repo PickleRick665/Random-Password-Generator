@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Karla:wght@200;300;400;500;700;800&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Karla:wght@200;300;400;500;700;800&display=swap" rel="stylesheet">
+        
+    </head>
+    <body>
+        <div class="bodyDiv">
+        
+            <!-- Heading -->
+            <h1>Generate a <span class="randomPasswordPhraseClass">random password<span></h1> 
+            <p class="subtextClass">Never use an insecure password again</p>
+            
+   
+            <div class="optionsDiv">
+                <!-- Option for the length of the generated password -->
+                <div class="labels-InputDiv">
+                    <label for="passwordlength">Max Characters</label>
+                    <input type="number" class="passwordLengthInput" id="password-length" name = "passwordlength" min = "8" max = "20" value = "8" autocomplete = "off">
+                </div>
+                
+                <!-- Toggle option to include/exclude symbols -->
+                <div class="labels-InputDiv">
+                    <label for = "withSymbols">Symbols</label>
+                    <input type="checkbox" class="checkboxInput" id="with-symbols" name="withSymbols" checked />
+                </div>
+
+                <!-- Toggle option to include/exclude capital letters -->
+                <div class="labels-InputDiv">
+                    <label for = "withCapitalLetters">Capital Letters</label>
+                    <input type="checkbox" class="checkboxInput" id="with-capital-letters" name="withCapitalLetters" checked />
+                </div> 
+            </div>
+
+            <!-- Generate password button -->
+            <button id="generate-password-button" class="generatePasswordButton">Generate passwords</button>
+        
+            <!-- line -->
+            <hr class="line">
+            
+            <!-- password output holders -->
+            <div class="rectangleParentDiv">
+                <div id="first-password" class="firstRectangle"></div>
+                <div id="second-password" class="secondRectangle"></div>
+            </div>
+       
+            <!-- script -->
+            <script src="index.js"></script>
+        </div>
+    </body>
+</html>
